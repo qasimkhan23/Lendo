@@ -4,4 +4,4 @@
 -  npm install (make sure you are inside the cloned repo folder)
 -  npm run dev
 
-[![lendo.jpg](https://i.postimg.cc/FRRKss3z/lendo.jpg)]
+![ScreenShot](https://raw.github.com/{qasimkhan23}/{Lendo}/{main}/{./src/assets/lendo.JPG})
