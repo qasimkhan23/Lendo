@@ -1,0 +1,116 @@
+@use "mixins" as *;
+@use "variables" as *;
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card {
+   width: 100%;
+   border-radius: 40px;
+   display: flex;
+   margin-top: 16px;
+   background-color: white;
+   margin-bottom: 16px;
+}
+.title {
+   font-size: 18px;
+   font-family: $bold;
+   margin-left: 8px;
+}
+.regular {
+   font-family: $regular;
+}
+.bold {
+   font-family: $bold;
+}
+.leftSection {
+   // background-color: red;
+   padding: 27px 34px;
+   display: flex;
+   flex: 1;
+   // border: 1px solid black;
+   border-right: 1px solid #e5e5f3;
+}
+
+.flex {
+   display: flex;
+}
+.flex-row {
+   flex-direction: row;
+}
+
+.flex-col {
+   flex-direction: column;
+}
+.ml-1 {
+   margin-left: 4px;
+}
+.ml-2 {
+   margin-left: 8px;
+}
+.ml-3 {
+   margin-left: 12px;
+}
+.ml-4 {
+   margin-left: 16px;
+}
+.mt-1 {
+   margin-top: 4px;
+}
+.mt-2 {
+   margin-top: 8px;
+}
+.mt-3 {
+   margin-top: 12px;
+}
+.mt-4 {
+   margin-top: 16px;
+}
+.mt-5 {
+   margin-top: 20px;
+}
+.mt-6 {
+   margin-top: 24px;
+}
+.balanceContainer {
+   margin-top: 60px;
+}
+.balance {
+   font-size: 9px;
+   color: $text-primary-color;
+}
+.amount {
+   font-size: 15px;
+   color: $text-primary-color;
+}
+.depositBtn {
+   @include primary-button;
+   width: 70px;
+}
+.btn-container {
+   margin-top: 16px;
+}
+.withdrawBtn {
+   @include secondary-button;
+}
+.warningTextContainer {
+   margin-top: 24px;
+}
+.divider {
+   width: 100%;
+   border: 0.5px solid #e5e5f3;
+}
+.mr-1 {
+   margin-right: 4px;
+}
+.mr-2 {
+   margin-right: 8px;
+}
+.mr-3 {
+   margin-right: 12px;
+}
+.mr-4 {
+   margin-right: 16px;
+}

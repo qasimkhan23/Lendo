@@ -1,0 +1,42 @@
+@use "../../mixins.scss" as *;
+@use "../../variables" as *;
+
+.leftSection {
+   padding: 27px 34px;
+   display: flex;
+   flex: 1;
+   border-right: 1px solid #e5e5f3;
+}
+
+.balanceContainer {
+   margin-top: 60px;
+}
+.balance {
+   font-size: 9px;
+   color: $text-primary-color;
+}
+.amount {
+   font-size: 15px;
+   color: $text-primary-color;
+}
+.depositBtn {
+   @include primary-button;
+   width: 70px;
+}
+.depositBtnText {
+   font-size: 8px;
+}
+.btn-container {
+   margin-top: 16px;
+}
+.withdrawBtn {
+   @include secondary-button;
+   width: 70px;
+}
+.warningTextContainer {
+   margin-top: 24px;
+}
+.warningText {
+   font-size: 8px;
+   color: $text-primary-color;
+}

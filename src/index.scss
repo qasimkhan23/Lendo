@@ -1,0 +1,13 @@
+@font-face {
+   font-family: "PriximaNovaRegular";
+   src: url("./fonts/PriximaNovaRegular.otf");
+}
+@font-face {
+   font-family: "PriximaNovaBold";
+   src: url("./fonts/PriximaNovaBold.otf");
+}
+
+body {
+   font-family: "PriximaNovaRegular", sans-serif;
+   background-color: #f9f9f9;
+}

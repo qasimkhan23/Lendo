@@ -1,0 +1,32 @@
+@mixin primary-button {
+   background-color: #2d91fe;
+   color: #ffffff;
+   padding: 8.5px 14.8px;
+   border-radius: 25px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin secondary-button {
+   background-color: #ffffff;
+   color: black;
+   padding: 8.5px 14.8px;
+   border-radius: 25px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #e5e5f3;
+}
+@mixin danger-button {
+   background-color: #ff6769;
+   color: #ffffff;
+   padding: 8.5px 14.8px;
+   border-radius: 25px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
